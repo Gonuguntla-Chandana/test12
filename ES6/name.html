@@ -1,0 +1,20 @@
+<!------getElementByName---->
+<html>
+    <head>
+        <script>
+           function totalCount(){
+            var all=document.getElementsByName("gender");
+            alert("toal count of radio buttons are"+all.length)
+           }
+        </script>
+    </head>
+    <body>
+        <form>
+            Male: <input type="radio" name="gender" value="male"/>
+            Female:<input type="radio" name="gender" value="female"/>
+          <br/><br/>
+        <input type="button" value="count" onclick="totalCount()"/>
+
+        </form>
+    </body>
+</html>
